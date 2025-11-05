@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Insurance Recommender</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <canvas id="bg-canvas" class="bg-canvas"></canvas>
+  <div class="overlay"></div>
+  <div class="app">
+    <header class="topbar">
+      <div class="logo">CMRIT</div>
+      <div class="top-actions">
+        <button id="theme-toggle" class="icon-btn" title="Toggle theme">🌓</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="left card">
+        <h1>Find the best health insurance</h1>
+        <p class="lead">Enter your health details and budget. Get personalized policy recommendations. Click a policy to Know More.</p>
+        <form id="predict-form" class="form-grid">
+          <div class="row"><label>Age<input id="Age" type="number" required></label><label>Diabetes (0/1)<input id="Diabetes" type="number" min="0" max="1" value="0" required></label></div>
+          <div class="row"><label>Blood Pressure Problems (0/1)<input id="BloodPressureProblems" type="number" min="0" max="1" value="0" required></label><label>Any Transplants (0/1)<input id="AnyTransplants" type="number" min="0" max="1" value="0" required></label></div>
+          <div class="row"><label>Any Chronic Diseases (0/1)<input id="AnyChronicDiseases" type="number" min="0" max="1" value="0" required></label><label>Known Allergies (0/1)<input id="KnownAllergies" type="number" min="0" max="1" value="0" required></label></div>
+          <div class="row"><label>History Of Cancer In Family (0/1)<input id="HistoryOfCancerInFamily" type="number" min="0" max="1" value="0" required></label><label>Number Of Major Surgeries<input id="NumberOfMajorSurgeries" type="number" min="0" value="0" required></label></div>
+          <div class="row"><label>Height (cm)<input id="Height" type="number" step="0.1" required></label><label>Weight (kg)<input id="Weight" type="number" step="0.1" required></label></div>
+          <div class="row"><label>Budget (₹) - optional<input id="budget" type="number" placeholder="Eg: 40000"></label></div>
+          <div class="row"><button class="primary" type="submit">Get Recommendations</button></div>
+        </form>
+        
+      </section>
+
+      <section class="right card results-section">
+        <div class="results-header"><h2>Recommendations</h2><div id="risk" class="risk">Risk: N/A</div></div>
+        <div id="cards" class="cards"></div>
+        <div id="more-section" class="more-section" style="display:none;"><h3>More Policies</h3><div id="more-cards" class="cards"></div></div>
+        <div class="more-actions"><button id="show-more" class="secondary" style="display:none;">Show More Policies</button></div>
+      </section>
+    </main>
+
+    <footer class="footer">Made By CMRIT Students</footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
