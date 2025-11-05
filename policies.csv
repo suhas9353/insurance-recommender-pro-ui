@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 brand,policy,price,coverage,tags,remarks,url
 LIC,LIC Health Secure,25000,₹5 Lakh,"low,general",Affordable family coverage,https://www.policybazaar.com/lic-health-insurance/
 HDFC ERGO,HDFC Ergo Health Assure,32000,₹5 Lakh,"medium,diabetes,bp",Good for mild chronic conditions,https://www.policybazaar.com/health-insurance/hdfc-ergo-health-insurance/
@@ -13,3 +14,20 @@ SBI GENERAL,SBI General Health Shield,39000,₹9 Lakh,"medium,chronic",Covers ch
 NMHC,NMHC Senior Care,60000,₹20 Lakh,"high,senior,chronic",Best for elderly with health issues,https://www.policybazaar.com/
 HDFC ERGO,HDFC Ergo Silver,22000,₹3 Lakh,"low,budget",Budget plan for minimal needs,https://www.policybazaar.com/health-insurance/hdfc-ergo-health-insurance/
 STAR HEALTH,Star Health Enhanced,47000,₹12 Lakh,"high,surgery,chronic",High cover with surgery allowance,https://www.policybazaar.com/star-health-insurance/
+=======
+brand,policy,price,coverage,tags,remarks,url
+LIC,LIC Health Secure,25000,₹5 Lakh,"low,general",Affordable family coverage,https://www.policybazaar.com/lic-health-insurance/
+HDFC ERGO,HDFC Ergo Health Assure,32000,₹5 Lakh,"medium,diabetes,bp",Good for mild chronic conditions,https://www.policybazaar.com/health-insurance/hdfc-ergo-health-insurance/
+STAR HEALTH,Star Health Family Optima,38000,₹7 Lakh,"medium,general",Balanced cover for families,https://www.policybazaar.com/star-health-insurance/
+ICICI LOMBARD,ICICI Lombard Complete Care,42000,₹10 Lakh,"high,chronic,surgery",Comprehensive cover for high-risk members,https://www.policybazaar.com/icici-lombard-health-insurance/
+CARE HEALTH,Care Health Plus,30000,₹5 Lakh,"low,young",Budget-friendly for young individuals,https://www.policybazaar.com/care-health-insurance/
+MAX BUPA,Max Bupa Health Companion,45000,₹10 Lakh,"high,diabetes,bp",Strong diabetic & BP coverage,https://www.policybazaar.com/niva-bupa-health-insurance/
+BAJAJ ALLIANZ,Bajaj Allianz Health Guard,34000,₹7 Lakh,"medium,general",Good everyday health policy,https://www.policybazaar.com/bajaj-allianz-health-insurance/
+TATA AIG,Tata AIG Critical Care,52000,₹15 Lakh,"high,cancer,surgery",Covers critical illnesses & surgeries,https://www.policybazaar.com/tata-aig-health-insurance/
+RELIANCE,Reliance Health Secure,28000,₹5 Lakh,"low,general",Affordable cover with good network,https://www.policybazaar.com/reliance-health-insurance/
+ORIENTAL,Oriental Family Health,36000,₹8 Lakh,"medium,family",Great for family coverage,https://www.policybazaar.com/oriental-health-insurance/
+SBI GENERAL,SBI General Health Shield,39000,₹9 Lakh,"medium,chronic",Covers chronic conditions well,https://www.policybazaar.com/sbi-general-health-insurance/
+NMHC,NMHC Senior Care,60000,₹20 Lakh,"high,senior,chronic",Best for elderly with health issues,https://www.policybazaar.com/
+HDFC ERGO,HDFC Ergo Silver,22000,₹3 Lakh,"low,budget",Budget plan for minimal needs,https://www.policybazaar.com/health-insurance/hdfc-ergo-health-insurance/
+STAR HEALTH,Star Health Enhanced,47000,₹12 Lakh,"high,surgery,chronic",High cover with surgery allowance,https://www.policybazaar.com/star-health-insurance/
+>>>>>>> 5e6839de4244108d85698b064c4ec6fa5b68741a
